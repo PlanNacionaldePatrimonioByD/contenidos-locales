@@ -2,18 +2,22 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'grid-list',
   standalone: true,
-  imports: [MatCardModule, CommonModule, MatButtonModule],
+  imports: [MatCardModule, CommonModule, MatButtonModule, HttpClientModule],
   templateUrl: './grid-list.component.html',
   styleUrls: ['./grid-list.component.css'],
 })
 export class GridListComponent implements OnInit {
   tiles: any[] = [];
+  imgPath: string =
+    'https://vamosahacermemoria.blob.core.windows.net/contenidos-locales/';
+  token: string =
+    'sp=r&st=2024-07-13T20:09:43Z&se=2025-07-14T04:09:43Z&spr=https&sv=2022-11-02&sr=c&sig=MU4sEEY3pLMoomqUyUJV5G9bRxTSg%2BiO8ORq5Lj1ihE%3D';
 
   constructor(private http: HttpClient) {}
 
@@ -23,7 +27,7 @@ export class GridListComponent implements OnInit {
 
   loadCsvData() {
     this.http
-      .get('../assets/data/contenidos.csv', { responseType: 'text' })
+      .get('../assets/data/Contenidos Locales.csv', { responseType: 'text' })
       .pipe(map((data) => this.csvToArray(data)))
       .subscribe((data) => {
         this.tiles = data;
