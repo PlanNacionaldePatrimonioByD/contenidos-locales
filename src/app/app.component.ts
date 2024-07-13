@@ -5,6 +5,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatRippleModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { GridListComponent } from './grid-list/grid-list.component';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDividerModule } from '@angular/material/divider';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +21,8 @@ import { GridListComponent } from './grid-list/grid-list.component';
     MatRippleModule,
     GridListComponent,
     HttpClientModule,
+    MatIconModule,
+    MatDividerModule,
   ],
 })
 export class AppComponent {

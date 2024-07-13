@@ -1,5 +1,20 @@
 <main>
   <section>
-    <grid-list></grid-list>
+    <div>
+      <h2>Contenidos locales</h2>
+      <div class="button-row">
+        <div class="flex-container">
+          <button mat-icon-button aria-label="ir al inicio" routerLink="/intro">
+            <mat-icon>home</mat-icon>
+          </button>
+          <button mat-button aria-label="Explorar" routerLink="/explorar">
+            Explorar
+          </button>
+        </div>
+      </div>
+    </div>
   </section>
+  <mat-divider></mat-divider>
+
+  <router-outlet></router-outlet>
 </main>
