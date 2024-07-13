@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card-content {
+  flex: 1 1 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .card-content {
+    flex: 1 1 calc(50% - 20px); /* Adjusting width for two columns */
+    max-width: calc(50% - 20px); /* Adjusting max-width for two columns */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-content {
+    flex: 1 1 calc(100% - 20px); /* Adjusting width for one column */
+    max-width: calc(100% - 20px); /* Adjusting max-width for one column */
+  }
+}

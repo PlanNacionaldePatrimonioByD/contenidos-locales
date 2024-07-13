@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { HttpClient } from '@angular/common/http';
@@ -9,7 +8,7 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'grid-list',
   standalone: true,
-  imports: [MatCardModule, CommonModule, MatGridListModule, MatButtonModule],
+  imports: [MatCardModule, CommonModule, MatButtonModule],
   templateUrl: './grid-list.component.html',
   styleUrls: ['./grid-list.component.css'],
 })
