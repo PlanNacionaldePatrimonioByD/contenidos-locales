@@ -3,6 +3,7 @@ import { RouterOutlet, RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatRippleModule } from '@angular/material/core';
+import { HttpClientModule } from '@angular/common/http';
 import { GridListComponent } from './grid-list/grid-list.component';
 
 @Component({
@@ -17,6 +18,7 @@ import { GridListComponent } from './grid-list/grid-list.component';
     MatGridListModule,
     MatRippleModule,
     GridListComponent,
+    HttpClientModule,
   ],
 })
 export class AppComponent {

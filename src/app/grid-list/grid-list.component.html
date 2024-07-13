@@ -1,5 +1,5 @@
-<mat-grid-list cols="2" rowHeight="2:1">
-  <mat-grid-tile *ngFor="let tile of tiles" [colspan]="1" [rowspan]="2">
+<mat-grid-list cols="2">
+  <mat-grid-tile *ngFor="let tile of tiles">
     <mat-card class="example-card" appearance="outlined">
       <mat-card-header>
         <div mat-card-avatar class="example-header-image" [style.background]="tile.color"></div>
