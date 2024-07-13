@@ -1,6 +1,21 @@
-<h1>Explorar</h1>
 <mat-grid-list cols="2" rowHeight="2:1">
-    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows" [style.background]="tile.color">
-      {{tile.text}}
-    </mat-grid-tile>
+  <mat-grid-tile *ngFor="let tile of tiles" [colspan]="1" [rowspan]="2">
+    <mat-card class="example-card" appearance="outlined">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image" [style.background]="tile.color"></div>
+        <mat-card-title>{{tile.text}}</mat-card-title>
+        <mat-card-subtitle>{{tile.subtitle}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="tile.img" alt="Photo of {{tile.text}}">
+      <mat-card-content>
+        <p>
+          {{tile.description}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
 </mat-grid-list>
