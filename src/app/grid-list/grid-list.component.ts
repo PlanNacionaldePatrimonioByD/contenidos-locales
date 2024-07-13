@@ -14,6 +14,10 @@ import { map } from 'rxjs/operators';
 })
 export class GridListComponent implements OnInit {
   tiles: any[] = [];
+  imgPath: string =
+    'https://vamosahacermemoria.blob.core.windows.net/contenidos-locales/';
+  token: string =
+    'sp=r&st=2024-07-13T20:09:43Z&se=2025-07-14T04:09:43Z&spr=https&sv=2022-11-02&sr=c&sig=MU4sEEY3pLMoomqUyUJV5G9bRxTSg%2BiO8ORq5Lj1ihE%3D';
 
   constructor(private http: HttpClient) {}
 
@@ -23,7 +27,7 @@ export class GridListComponent implements OnInit {
 
   loadCsvData() {
     this.http
-      .get('../assets/data/contenidos.csv', { responseType: 'text' })
+      .get('../assets/data/Contenidos Locales.csv', { responseType: 'text' })
       .pipe(map((data) => this.csvToArray(data)))
       .subscribe((data) => {
         this.tiles = data;
