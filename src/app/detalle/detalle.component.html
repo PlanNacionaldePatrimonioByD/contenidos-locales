@@ -1,0 +1,20 @@
+<section *ngIf="currentTile; else noTile">
+    <div class="card-container">
+        <h3>{{currentTile.titulo}}</h3>
+        <img [src]="blobPath + currentTile.imagen + '?' + token" [alt]="'Imagen decorativa id: ' + currentTile.ID ">
+        <p><strong>Descripción:</strong> {{currentTile.descripcion}}</p>
+
+        <p><strong>Nombre de la biblioteca:</strong> {{currentTile['nombre-biblioteca']}}</p>
+        <p><strong>Autores:</strong> {{currentTile.autores}}</p>
+        <p><strong>Etiquetas:</strong> {{currentTile.etiquetas}}</p>
+        <p><strong>Formato:</strong> {{currentTile.formato}}</p>
+        <p><strong>ID:</strong> {{currentTile.ID}}</p>
+        <p><strong>Coordenadas:</strong>
+            <strong>Latitud:</strong> {{currentTile['lugar-creacion'].Coordinates?.Latitude}},
+            <strong>Longitud:</strong> {{currentTile['lugar-creacion'].Coordinates?.Longitude}}
+        </p>
+    </div>
+</section>
+<ng-template #noTile>
+    <p>:/</p>
+</ng-template>
