@@ -7,9 +7,12 @@
           <button mat-icon-button aria-label="ir al inicio" routerLink="/intro">
             <mat-icon>home</mat-icon>
           </button>
-          <button mat-button aria-label="Explorar" routerLink="/explorar">
-            Explorar
-          </button>
+          <a mat-button aria-label="Explorar" routerLink="/explorar">
+            <mat-icon>visibility</mat-icon> Explorar
+          </a>
+          <a href="assets/data/Contenidos Locales.csv" download="Contenidos Locales.csv" mat-button>
+            <mat-icon>download</mat-icon> Descargar datos
+          </a>
         </div>
       </div>
     </div>
