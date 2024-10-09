@@ -1,10 +1,11 @@
-## Custom Markers example
+## Mapa con Marcadores Personalizados leidos desde lista creada con Sharepoint
 
-Initialize a map with custom map markers based on geoJson data which displays an alert detail when clicked.
+Inicializa un mapa con marcadores personalizados basados en datos csv convertidos en geoJson, los cuales muestran un detalle de alerta cuando se hace clic en ellos.
 
-![Demo gif](https://i.imgur.com/AXzzNic.gif)
+[Lector-de-Contenidos-Locales.webm](https://github.com/user-attachments/assets/f56bc388-843c-4c5a-ae75-bd52d87cca68)
 
-### Run it
+
+### Ejecutarlo
 
     git clone https://github.com/mapbox/mapbox-react-examples.git
 
@@ -12,12 +13,12 @@ Initialize a map with custom map markers based on geoJson data which displays an
     npm install
     npm start
 
-    open http://localhost:3000/
+    abre http://localhost:3000/
 
-### Access token
+### Token de acceso
 
-    mapboxgl.accessToken = // YOUR_API_KEY_HERE
+    mapboxgl.accessToken = // TU_API_KEY_AQUÍ
 
-Replace the [API key](https://docs.mapbox.com/help/getting-started/access-tokens/) in `src/Map.js`.
+Reemplaza la [clave API](https://docs.mapbox.com/help/getting-started/access-tokens/) en `src/Map.js`.
 
-Runs the app from http://localhost:3000
+La aplicación se ejecuta desde http://localhost:3000
