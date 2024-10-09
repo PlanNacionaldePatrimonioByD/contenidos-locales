@@ -7,7 +7,7 @@ Inicializa un mapa con marcadores personalizados basados en datos csv convertido
 
 ### Ejecutarlo
 
-    git clone [https://github.com/mapbox/mapbox-react-examples.git](https://github.com/PlanNacionaldePatrimonioByD/contenidos-locales.git)
+    git clone https://github.com/PlanNacionaldePatrimonioByD/contenidos-locales.git
 
     cd contenidos-locales
     npm install
