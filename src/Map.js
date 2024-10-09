@@ -91,6 +91,13 @@ const Map = () => {
           <Typography variant="body2">
             <strong>Lugar:</strong> {modalContent['Lugar (de la experiencia)']}
           </Typography>
+          <Box sx={{ height: 10 }} />
+          <Typography variant="body2">
+            <strong>Etiquetas:</strong> {modalContent.etiquetas}
+          </Typography>
+          <Typography variant="body2">
+            <strong>Formato:</strong> {modalContent.formato}
+          </Typography>
           
         </Box>
       </Modal>

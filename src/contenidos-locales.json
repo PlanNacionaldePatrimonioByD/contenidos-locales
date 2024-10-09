@@ -1,73 +1,85 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "titulo": "Echando cháchara",
-        "descripcion": "Proyecto que busca resaltar las historias de las personas del municipio de Marinilla Antioquia, el objetivo es conversar sobre sus historias y áreas de conocimiento. Se pueden escuchar la voz de personajes como el sepulturero, el animero, un conductor de chiva, un embolador, una persona migrante, entre otros, con estas voces se permite a la comunidad de marinilla construir nuevos formatos para depositar su información local y acceder a las historias de su gente y su pueblo.",
-        "imagen": "echando-chachara.png",
-        "nombre-biblioteca": "",
-        "autores": "Grupo amigos de la biblioteca de la Biblioteca Pública Berenice Gómez Acebedo de Marinilla",
-        "etiquetas": "",
-        "formato": "",
-        "Lugar (de la experiencia)": "Marinilla, Antioquia"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.33370107665128, 6.173948529848984]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "titulo": "Trifásico de Lenguas Nativas",
-        "descripcion": "Esta es una cartilla de recopilaciones culturales en tres lenguas",
-        "imagen": "23284_cartilla-digital-trifasico-de-lenguas-nativas_1024x600.jpg",
-        "nombre-biblioteca": "Biblioteca Pública Municipal Lenguaje Universal",
-        "autores": "Nayeli Guaitoto",
-        "etiquetas": "",
-        "formato": "",
-        "Lugar (de la experiencia)": "Pizarro, Bajo Baudó, Choco"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.36730032470722, 4.957012836289088]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "titulo": "Historia de Gualmatán para jóvenes",
-        "descripcion": "El municipio de Gualmatán se ubica en el suroccidente del departamento de Nariño, donde su historia, festividades, gastronomía, fiestas, saberes y tradiciones fortalecen la identidad cultural y la oralidad. Todo lo anterior se es resaltado en las cartillas para jóvenes, que se crean desde el desconocimiento constante que tienen las nuevas generaciones sobre su cultura y tradición, en cada una de las cartillas se resaltan los hechos más relevantes del municipio de Gualmatán, se abarcan aspectos de la época prehispánica, hispánica y contemporánea que han causado un impacto en el desarrollo actual de la localidad.",
-        "imagen": "IMG_2393-scaled.jpg",
-        "nombre-biblioteca": "Biblioteca Pública Municipal Julio César Benavides de Gualmatán",
-        "autores": "",
-        "etiquetas": "",
-        "formato": "",
-        "Lugar (de la experiencia)": "Gualmatán, Nariño"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.5677931133001, 0.9222865296999824]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "titulo": "14 estaciones: nos vemos en mi pueblo",
-        "descripcion": "El programa 14 Estaciones “Nos vemos en mi pueblo”, busca la recuperación de la memoria histórica, así como en la identificación, conservación y difusión del patrimonio cultural de cada uno de los municipios de Risaralda.  El proyecto recorre por el departamento, identificando, creando y recuperando la memoria a través de podcast, galerías fotográficas, videos documentales y crónicas que permitirán conocer más detalles sobre las riquezas de la región.",
-        "imagen": "maxresdefault.jpg",
-        "nombre-biblioteca": "Biblioteca Pública Departamental de Risaralda",
-        "autores": "",
-        "etiquetas": "",
-        "formato": "",
-        "Lugar (de la experiencia)": "Pereira, Risaralda"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-75.69643775460678, 4.817245814820883]
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.333701,
+                    6.173949
+                ]
+            },
+            "properties": {
+                "titulo": "Echando cháchara",
+                "descripcion": "Proyecto que busca resaltar las historias de las personas del municipio de Marinilla Antioquia, el objetivo es conversar sobre sus historias y áreas de conocimiento. Se pueden escuchar la voz de personajes como el sepulturero, el animero, un conductor de chiva, un embolador, una persona migrante, entre otros, con estas voces se permite a la comunidad de marinilla construir nuevos formatos para depositar su información local y acceder a las historias de su gente y su pueblo.",
+                "imagen": "echando-chachara.png",
+                "nombre-biblioteca": "Biblioteca Pública Berenice Gómez Acebedo de Marinilla",
+                "autores": "Grupo amigos de la biblioteca de la Biblioteca Pública Berenice Gómez Acebedo de Marinilla",
+                "etiquetas": "[\"etiqueta 1\"]",
+                "formato": "[\"web\",\"interactivo\"]",
+                "Lugar (de la experiencia)": "Marinilla, Antioquia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.3673,
+                    4.957013
+                ]
+            },
+            "properties": {
+                "titulo": "Trifásico de Lenguas Nativas",
+                "descripcion": "Esta es una cartilla de recopilaciones culturales en tres lenguas",
+                "imagen": "23284_cartilla-digital-trifasico-de-lenguas-nativas_1024x600.jpg",
+                "nombre-biblioteca": "Biblioteca Pública Municipal Lenguaje Universal",
+                "autores": "Nayeli Guaitoto",
+                "etiquetas": "",
+                "formato": "",
+                "Lugar (de la experiencia)": "Pizarro, Bajo Baudó, Choco"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.567793,
+                    0.922287
+                ]
+            },
+            "properties": {
+                "titulo": "Historia de Gualmatán para jóvenes",
+                "descripcion": "El municipio de Gualmatán se ubica en el suroccidente del departamento de Nariño, donde su historia, festividades, gastronomía, fiestas, saberes y tradiciones fortalecen la identidad cultural y la oralidad. Todo lo anterior se es resaltado en las cartillas para jóvenes, que se crean desde el desconocimiento constante que tienen las nuevas generaciones sobre su cultura y tradición, en cada una de las cartillas se resaltan los hechos más relevantes del municipio de Gualmatán, se abarcan aspectos de la época prehispánica, hispánica y contemporánea que han causado un impacto en el desarrollo actual de la localidad.",
+                "imagen": "IMG_2393-scaled.jpg",
+                "nombre-biblioteca": "Biblioteca Pública Municipal Julio César Benavides de Gualmatán",
+                "autores": "",
+                "etiquetas": "",
+                "formato": "",
+                "Lugar (de la experiencia)": "Gualmatán, Nariño"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.696438,
+                    4.817246
+                ]
+            },
+            "properties": {
+                "titulo": "14 estaciones: nos vemos en mi pueblo",
+                "descripcion": "El programa 14 Estaciones “Nos vemos en mi pueblo”, busca la recuperación de la memoria histórica, así como en la identificación, conservación y difusión del patrimonio cultural de cada uno de los municipios de Risaralda.  El proyecto recorre por el departamento, identificando, creando y recuperando la memoria a través de podcast, galerías fotográficas, videos documentales y crónicas que permitirán conocer más detalles sobre las riquezas de la región.",
+                "imagen": "maxresdefault.jpg",
+                "nombre-biblioteca": "Biblioteca Pública Departamental de Risaralda",
+                "autores": "",
+                "etiquetas": "",
+                "formato": "",
+                "Lugar (de la experiencia)": "Pereira, Risaralda"
+            }
+        }
+    ]
 }
