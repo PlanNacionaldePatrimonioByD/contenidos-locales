@@ -1,4 +1,4 @@
-## Mapa con Marcadores Personalizados leidos desde lista creada con Sharepoint
+## Mapa con Marcadores Personalizados con datos desde lista creada con Sharepoint
 
 Inicializa un mapa con marcadores personalizados basados en datos csv convertidos en geoJson, los cuales muestran un detalle de alerta cuando se hace clic en ellos.
 
