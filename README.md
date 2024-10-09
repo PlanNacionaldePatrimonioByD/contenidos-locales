@@ -7,17 +7,18 @@ Inicializa un mapa con marcadores personalizados basados en datos csv convertido
 
 ### Ejecutarlo
 
-    git clone https://github.com/mapbox/mapbox-react-examples.git
+    git clone [https://github.com/mapbox/mapbox-react-examples.git](https://github.com/PlanNacionaldePatrimonioByD/contenidos-locales.git)
 
-    cd mapbox-react-examples/markers-custom
+    cd contenidos-locales
     npm install
-    npm start
+    npm run start
 
     abre http://localhost:3000/
 
-### Token de acceso
+### Token de acceso y estilo
 
     mapboxgl.accessToken = // TU_API_KEY_AQUÍ
+    style: 'mapbox://styles/... // se obtiene en https://studio.mapbox.com/
 
 Reemplaza la [clave API](https://docs.mapbox.com/help/getting-started/access-tokens/) en `src/Map.js`.
 
