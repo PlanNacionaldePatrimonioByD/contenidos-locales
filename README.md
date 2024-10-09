@@ -1,6 +1,6 @@
 ## Mapa con Marcadores Personalizados con datos desde lista creada con Sharepoint
 
-Inicializa un mapa con marcadores personalizados basados en datos csv convertidos en geoJson, los cuales muestran un detalle de alerta cuando se hace clic en ellos.
+Inicializa un mapa con marcadores personalizados basados en datos csv convertidos en geoJson, los cuales muestran la metadata en detalle cuando se hace clic en cada marcador.
 
 [Lector-de-Contenidos-Locales.webm](https://github.com/user-attachments/assets/f56bc388-843c-4c5a-ae75-bd52d87cca68)
 
